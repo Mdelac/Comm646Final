@@ -1,0 +1,7 @@
+body                  {font-family: sans-serif;}
+.tabs                 {background-color: lightgrey;height:20px;padding-top:5px;padding-bottom:7px}
+ul.tabs li            {margin-bottom: -1px;padding: 3px 10px 3px 10px;border: 1px solid #DDDDDD;background: #EFEFEF;display: inline-block;border-top-left-radius: 6px; border-top-right-radius: 6px;}
+ul.tabs li.selected   {background: #FFF;border-bottom-color: white;padding-bottom:5px}
+ul.tabs li:hover      {color: grey;cursor: pointer;background: #FFFFFF;}
+div.page              {text-align: left;position: absolute;}
+div.page li           {text-align: left;list-style-type: none;}

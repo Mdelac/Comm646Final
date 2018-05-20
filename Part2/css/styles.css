@@ -1,0 +1,9 @@
+body   {align-content: center;font-family: sans-serif;}
+h1     {text-align: center;color:#8B0000;}
+ul     {display: flex;justify-content: center;}
+li     {list-style: none;padding: 10px 10px;color: grey;font-size: 2em;cursor: pointer;}
+i      {cursor: pointer;font-size: 3em;}
+.slider{align-content: center;display: flex;width: 600px;height: auto;margin: 0 auto;position: relative;overflow: hidden;padding:         5px;}
+.slider img{width: 600px;display: none;align-content: center;}
+.slider img.active{display: inline-block;animation: fade 2s ease;}
+.active{color: #8B0000;}
